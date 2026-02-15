@@ -1,3 +1,4 @@
+-- plugin/clip-paste.lua
 if vim.g.loaded_clip_paste then
   return
 end

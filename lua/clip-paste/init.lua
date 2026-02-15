@@ -1,7 +1,8 @@
+-- lua/clip-paste/init.lua
 local M = {}
 
 function M.setup()
-	if vim.fn.executable("clip.exe") == 1 and vim.fn.executable("powershell.exe") == 1 then
+	if vim.fn.executable("clip.exe") ~= 1 and vim.fn.executable("powershell.exe") ~= 1 then
 		return
 	end
 
