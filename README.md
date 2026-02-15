@@ -1,6 +1,6 @@
-# clip_paste.nvim
+# clip-paste.nvim
 
-clip_paste.nvim is a small Neovim plugin that automatically enables
+clip-paste.nvim is a small Neovim plugin that automatically enables
 clipboard integration between WSL and Windows.
 
 It checks whether `clip.exe` and `powershell.exe` are available. If they
@@ -30,7 +30,7 @@ Using lazy.nvim:
 
 ``` lua
 {
-  "Wastelander777/clip_paste.nvim",
+  "Wastelander777/clip-paste.nvim",
   lazy = false,
 }
 ```
@@ -38,7 +38,7 @@ Using lazy.nvim:
 Using packer:
 
 ``` lua
-use "Wastelander777/clip_paste.nvim"
+use "Wastelander777/clip-paste.nvim"
 ```
 
 ## Usage

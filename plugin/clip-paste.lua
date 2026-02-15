@@ -3,4 +3,4 @@ if vim.g.loaded_clip_paste then
 end
 vim.g.loaded_clip_paste = true
 
-require("clip_paste").setup()
+require("clip-paste").setup()
